@@ -1,0 +1,25 @@
+div.cont{
+    background-color: blue;
+    margin-top: 100px;
+    width: 50%;
+    text-align:center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div.res {
+  background-color: white;
+  text-align: center;
+  margin: auto;
+  width: 20%;
+  height: 250px;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  float:right;
+}
+
+div.image2 {
+    visibility: visible;
+    width: 80%;
+    float:left;
+}
