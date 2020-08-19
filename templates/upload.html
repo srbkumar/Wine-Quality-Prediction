@@ -1,0 +1,23 @@
+{% extends 'base.html'%}
+
+{% block head %}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Upload</title>
+{% endblock %}
+
+<body>
+{% block body %}
+<div class="bg-upload">
+		<div class="contact-box">
+			<div class="image3"></div>
+			<h1><u>UPLOAD YOUR FILE</u></h1>
+			<a class="button" href="https://drive.google.com/drive/folders/1Pt7fMHViiJJz2mDBJJED5Hgb7eippwbR?usp=sharing">SAMPLE CSV</a><br>
+
+			<form action="/csv" method="POST" enctype="multipart/form-data">
+				<p><input type="file" class="value1" name="upload_file" id="upload_file"></p>
+				<p><input type="submit" class="button2" value1="SUBMIT CSV FILE"></p>
+			</form>
+		</div>
+</div>
+{% endblock %}
+</body>

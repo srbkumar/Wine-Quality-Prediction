@@ -1,0 +1,22 @@
+{% extends 'base.html'%}
+
+{% block head %}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CSV Download</title>
+
+{% endblock %}
+
+<body>
+{% block body %}
+<div class="bg-upload">
+	<div class="contact-box">
+		<div class="image4"></div>
+		<h1><u>Output</u></h1>
+			<a class="button3" href="{{url_for('download_file')}}">DOWNLOAD</a><br><br><br>
+			<form action="/stats" method="POST">
+				<input type="submit" class="button4" value="VIEW STATISTICS">
+			</form>
+	</div>
+</div>
+</body>
+{% endblock %}
